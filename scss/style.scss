@@ -3,24 +3,7 @@ $white: #fefefe;
 $dark: #1b1818;
 $accent: #c5ac2d;
 
-html {
-    box-sizing: border-box;
-}
 
-*,
-*::after,
-*::before {
-    box-sizing: inherit;
-}
-
-body {
-    margin: 0;
-}
-
-ul,
-li {
-    list-style: none;
-}
 
 .container {
     max-width: 1400px;
