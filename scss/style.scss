@@ -17,11 +17,11 @@ $accent: #c5ac2d;
     justify-content: space-around;
     align-items: center;
 
-    li {
-        display: inline-block;
+    .menu-btn {
+        display: none;
     }
 
-    a {
+    .menu__item-link {
         text-decoration: none;
         text-transform: uppercase;
         font-family: 'Roboto Condensed', sans-serif;
@@ -29,9 +29,11 @@ $accent: #c5ac2d;
         font-size: 18px;
         color: $white;
         padding: 10px;
+        border-bottom: transparent;
+        transition: .5s;
 
         &:hover {
-            text-decoration: underline;
+            border-bottom: 1px solid $white;
         }
     }
 }
