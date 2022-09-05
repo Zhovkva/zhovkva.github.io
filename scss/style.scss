@@ -16,7 +16,8 @@ a {
 }
 
 .container {
-    max-width: 1400px;
+    max-width: 1420px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
@@ -507,6 +508,7 @@ a {
                     border-right: none;
                     border-bottom: 1px solid $dark;
                     border-left: none;
+                    outline: none;
                 }
 
                 .tel {
@@ -516,6 +518,7 @@ a {
                     border-right: none;
                     border-bottom: 1px solid $dark;
                     border-left: none;
+                    outline: none;
                 }
 
                 .name::placeholder {
